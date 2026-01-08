@@ -9,7 +9,7 @@ on:
 permissions:
   contents: read  # Allows read access to the contents
   pages: write    # Allows writing to GitHub Pages
-  id-token: write
+  id-token: write # This permission is required for deployment
 
 jobs:
   deploy:
@@ -24,7 +24,6 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v3
         with:
-          # The "enablement" parameter helps ensure the Pages deploy works correctly
           enablement: true  # Ensure GitHub Pages is enabled
 
       # Step 3: Upload the files (including index.html)
