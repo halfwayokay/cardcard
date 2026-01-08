@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Call-Out Generator</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #f4f4f4;
+    }
+    .container {
+      text-align: center;
+      padding: 20px;
+      background-color: white;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+    }
+    button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 id="callOut">Click the button to get a Call-Out!</h1>
+    <button onclick="generateCallOut()">Generate Call-Out</button>
+  </div>
+
+  <script>
+    const callOuts = [
+      "Able to lift a car", "Smiley", "Toothy", "Sweet", "Sweaty", "Worst", "Furriest",
+      "Harriet", "Wet", "Smelly", "Capable of doing taxes", "Skilled in taxidermy", "Willing to walk a dog", 
+      "Datable", "Undatable", "Clownish", "Foolish", "Bullish", "Childish", "Child-like", "Funny", 
+      "Scary", "Boring", "Red", "Blue", "Yellow", "Green", "White", "Black", "Dark", "Light", "Batty",
+      "Wild", "Purple", "Hazy", "Edible", "Inedible", "Drinkable", "Undrinkable", "Save the day", 
+      "Start a dance party", "Be the villain", "Win a beauty contest", "Break the internet", "Be late", 
+      "Become a meme", "Unlikely to succeed", "Win an award", "Outgoing", "Shy", "Stubborn", "Melodramatic",
+      "Confused", "Unique", "Likes to nap", "Found in a library", "Reality show star", "Start a revolution",
+      "Podcaster", "Untruthful", "Sneaky", "Snoopy", "Has secret identity", "Into dragons", "Into rollercoasters",
+      "Into ninja swords", "Has a stamp collection", "Has a coin collection", "Animal lover", "Good teacher", 
+      "Good learner", "Public speaker", "Twitch streamer", "Best hair", "Worst hair", "Best dancer", "Neurotic",
+      "Anxious", "Depressed", "Anxiety inducing", "Depressing", "Survivalist", "Freaky", "Have an existential crisis",
+      "Pirate-like", "Steals your fries", "Clumsy", "Hectic", "Frantic", "Mad scientist", "Sleeps through a fire drill",
+      "Sleepy", "Lazy", "Space case", "Storyteller", "Gives unsolicited advice", "Know-it-all", "Trendsetter",
+      "Time traveler", "Fantastical", "Pyromaniac", "Wizardly", "Shop-a-holic", "Coffee snob", "Argumentative",
+      "Combative", "Aggressive", "Assertive", "Passive", "Cowardly", "Comfortable", "Blank", "Plain", "Game show host",
+      "Dreamy", "Party animal", "Bummer", "Has a pet ferret", "Forgetful", "Friendly to strangers", "Good tipper",
+      "Bad tipper", "Reclusive", "Stays on-topic", "Goes off-topic", "Focused", "Spacey", "Smart", "Intelligent",
+      "Stupid", "Silly", "Wacky", "Believes in conspiracy theories", "Believes in Bigfoot", "Believes in aliens",
+      "Believes in Mothman", "Complimentative", "On TV", "Film star", "Theater kid", "Dirty", "Filthy", "Obsessed",
+      "In love", "Lover", "Fighter", "Competitive", "Thinker", "Contemplative", "Happy", "Hoppy", "Gnarly", 
+      "Radical", "Cool", "Icy", "Snowy", "Mysterious", "Unpredictable", "Bossy", "Adventurous", "Nonchalant",
+      "Dangerous", "Spontaneous", "Out of control", "Chill", "Jumpy", "Overzealous", "Overthinker", "Daydreamer",
+      "Night owl", "Early riser", "Leader", "Follower", "Overachiever", "Underachiever", "Dreamer", "Idealistic", 
+      "Realistic", "Tough", "Sensitive", "Hyper", "Laid-back", "Distracted", "Creative", "Artistic", "Crafty", 
+      "Reluctant", "Peaceful", "Chaos-inducing", "Anomaly", "Fearless", "Scaredy-cat", "Full of energy", "Energizer bunny",
+      "Talkative", "Silent", "Loud", "Quiet", "Spicy", "Sweet tooth", "Hoarder", "Minimalist", "Selfish", "Selfless", 
+      "Smartest in the room", "Not-so-smartest in the room", "Scatterbrained", "Too logical", "Too emotional", 
+      "Just right", "Mediocre", "Never gives up", "Never quits", "Feels too much", "Feels too little", "Regular", 
+      "Irregular", "Stale", "Fresh", "Bold", "Reserved", "Original", "Copycat", "Opportunistic", "Negotiator", "Survivor",
+      "Late bloomer", "Underdog", "Teacher’s pet", "Late to the party", "Early bird", "Overwhelming", "Underwhelming",
+      "High-maintenance", "Low-maintenance", "Emo", "Goth", "Preppy", "Punk", "Hipster", "Jock", "Nerd", "Geek", 
+      "Loner", "Social butterfly", "Socially awkward", "Thrill-seeker", "Couch potato", "Computer whiz", "Fitness fanatic",
+      "Foodie", "Bad cook", "Good cook", "Junk food lover", "Health nut", "Sports enthusiast", "Distant", "Close-knit", 
+      "Superstitious", "Skeptical", "Nature lover", "City dweller", "Homebody", "Nighttime thinker", "Sun worshipper", 
+      "Moonlight admirer", "Earth lover", "Weather-obsessed", "Water-loving", "Animal whisperer", "Plant whisperer", 
+      "Noise-sensitive", "Sound-loving", "Space-conscious", "Handyman", "Handywoman", "Fearful", "Braveheart", "Flexible",
+      "Rigid", "Procrastinator", "Perfectionist", "Loud laugher", "Quiet laugher", "Always tired", "Always energetic",
+      "Handsy", "Handy", "Slimy", "Goopy", "Wiggly", "Squirmy", "Sweet tooth"
+    ];
+
+    function generateCallOut() {
+      const randomIndex = Math.floor(Math.random() * callOuts.length);
+      document.getElementById('callOut').innerText = callOuts[randomIndex];
+    }
+  </script>
+</body>
+</html>
