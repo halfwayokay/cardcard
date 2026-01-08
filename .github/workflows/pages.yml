@@ -16,21 +16,24 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # Checkout the repository
+      # Step 1: Checkout the repository code
       - name: Checkout code
         uses: actions/checkout@v3
 
-      # Set up GitHub Pages
+      # Step 2: Set up GitHub Pages
       - name: Setup Pages
         uses: actions/configure-pages@v3
+        with:
+          # The "enablement" parameter helps ensure the Pages deploy works correctly
+          enablement: true  # Ensure GitHub Pages is enabled
 
-      # Upload the build files (your index.html and others)
+      # Step 3: Upload the files (including index.html)
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: .  # This will upload everything in the root directory
+          path: .  # This will upload all files in the root directory
 
-      # Deploy to GitHub Pages
+      # Step 4: Deploy to GitHub Pages
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v3
