@@ -1,0 +1,36 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main  # This will trigger the action when you push to the main branch
+  workflow_dispatch:  # Allows manual triggering of the workflow
+
+permissions:
+  contents: read  # Allows read access to the contents
+  pages: write    # Allows writing to GitHub Pages
+  id-token: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checkout the repository
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # Set up GitHub Pages
+      - name: Setup Pages
+        uses: actions/configure-pages@v3
+
+      # Upload the build files (your index.html and others)
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .  # This will upload everything in the root directory
+
+      # Deploy to GitHub Pages
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v3
