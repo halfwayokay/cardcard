@@ -346,3 +346,5 @@ Nasty
 Cat lover
 Dog lover
 Bird watcher
+Music lover
+Musician
