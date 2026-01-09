@@ -1,18 +1,21 @@
 Able to lift a car
-Smiley
+Smiley 
 Toothy
 Sweet
 Sweaty
 Worst
-Furriest
-Harriet
-Wet
+Hairy
+Furry
+Wet 
 Smelly
 Capable of doing taxes
 Skilled in taxidermy
 Willing to walk a dog
+Trusted to cat sit
+Trusted to dog sit
+Trusted to babysit
 Datable
-Undatable
+Undatable 
 Clownish
 Foolish
 Bullish
@@ -23,6 +26,9 @@ Scary
 Boring
 Red
 Blue
+Orange
+Brown
+Pink
 Yellow
 Green
 White
@@ -38,14 +44,14 @@ Inedible
 Drinkable
 Undrinkable
 Save the day
-Start a dance party
-Be the villain
-Win a beauty contest
-Break the internet
-Be late
+Villainous
+Beauty contestant
+Always late
 Become a meme
 Unlikely to succeed
-Win an award
+Likely to succeed
+Award winner
+Loser
 Outgoing
 Shy
 Stubborn
@@ -54,7 +60,7 @@ Confused
 Unique
 Likes to nap
 Found in a library
-Reality show star
+Reality show str
 Start a revolution
 Podcaster
 Untruthful
@@ -66,6 +72,8 @@ Into rollercoasters
 Into ninja swords
 Has a stamp collection
 Has a coin collection
+Quotes movies
+Quotes TV shows
 Animal lover
 Good teacher
 Good learner
@@ -74,6 +82,7 @@ Twitch streamer
 Best hair
 Worst hair
 Best dancer
+Worst dancer
 Neurotic
 Anxious
 Depressed
@@ -81,7 +90,8 @@ Anxiety inducing
 Depressing
 Survivalist
 Freaky
-Have an existential crisis
+Prone to existential crisis
+Midlife crisis
 Pirate-like
 Steals your fries
 Clumsy
@@ -92,13 +102,13 @@ Sleeps through a fire drill
 Sleepy
 Lazy
 Space case
-Storyteller
+Story teller
 Gives unsolicited advice
-Know-it-all
+Now-it-all
 Trendsetter
 Time traveler
 Fantastical
-Pyromaniac
+Pyromaniac 
 Wizardly
 Shop-a-holic
 Coffee snob
@@ -110,14 +120,16 @@ Passive
 Cowardly
 Comfortable
 Blank
+Boring
 Plain
 Game show host
 Dreamy
 Party animal
-Bummer
-Has a pet ferret
+Bummer 
+Has a pet ferret 
 Forgetful
 Friendly to strangers
+Buys a pet without telling you first
 Good tipper
 Bad tipper
 Reclusive
@@ -130,11 +142,12 @@ Intelligent
 Stupid
 Silly
 Wacky
+Talks too much
 Believes in conspiracy theories
-Believes in Bigfoot
+Believes in big foot
 Believes in aliens
-Believes in Mothman
-Complimentative
+Believes in Moth man
+Complimentative 
 On TV
 Film star
 Theater kid
@@ -145,16 +158,17 @@ In love
 Lover
 Fighter
 Competitive
-Thinker
+Thinker 
 Contemplative
 Happy
 Hoppy
-Gnarly
+Gnarly 
 Radical
 Cool
 Icy
 Snowy
 Mysterious
+Small hands
 Unpredictable
 Bossy
 Adventurous
@@ -184,6 +198,7 @@ Distracted
 Creative
 Artistic
 Crafty
+Stubborn
 Reluctant
 Peaceful
 Chaos-inducing
@@ -191,7 +206,8 @@ Anomaly
 Fearless
 Scaredy-cat
 Full of energy
-Energizer bunny
+Outgoing
+Shy
 Talkative
 Silent
 Loud
@@ -221,13 +237,17 @@ Bold
 Reserved
 Original
 Copycat
+Collector
+Hoarder
 Opportunistic
 Negotiator
 Survivor
 Late bloomer
+Overachiever
 Underdog
-Teacher’s pet
+Teacher's pet
 Late to the party
+Irish goodbye
 Early bird
 Overwhelming
 Underwhelming
@@ -248,6 +268,8 @@ Thrill-seeker
 Couch potato
 Computer whiz
 Fitness fanatic
+Finance expert 
+Day Trader
 Foodie
 Bad cook
 Good cook
@@ -261,6 +283,8 @@ Skeptical
 Nature lover
 City dweller
 Homebody
+Outgoing
+Quiet
 Nighttime thinker
 Sun worshipper
 Moonlight admirer
@@ -276,6 +300,8 @@ Handyman
 Handywoman
 Fearful
 Braveheart
+Laid-back
+High-energy
 Flexible
 Rigid
 Procrastinator
@@ -291,3 +317,32 @@ Goopy
 Wiggly
 Squirmy
 Sweet tooth
+Shady 
+Good kisser
+Bad kisser
+Good dancer
+Bad dancer
+Initiates dance party
+Party planner
+Vacation lover
+Vacation planner
+Tiny feet
+Big feet
+Big hands
+Great hair
+Jumper
+Swimmer
+Runner
+Athlete 
+Mathlete
+Science geek
+Comic book fan
+Heartthrob
+Model
+Boy Scout
+Rebel
+Bad guy
+Nasty
+Cat lover
+Dog lover
+Bird watcher
