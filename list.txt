@@ -1,26 +1,29 @@
 Able to lift a car
-Smiley
+Strong
+Athlete
+Runner
+Swimmer
+Jumper
+Fitness fanatic
+Mathlete
 Toothy
 Sweet
 Sweaty
-Worst
 Hairy
 Wet
 Smelly
-Capable of doing taxes
-Skilled in taxidermy
-Willing to walk a dog
-Trusted to petsit
-Trusted to babysit
-Datable
-Undatable
-Clownish
-Foolish
-Bullish
-Child-like
-Funny
-Scary
-Boring
+Slimy
+Goopy
+Squirmy
+Sticky
+Good hair
+Bad hair
+Good dancer
+Bad dancer
+Small hands
+Small feet
+Big feet
+Big hands
 Red
 Blue
 Orange
@@ -30,117 +33,151 @@ Yellow
 Green
 White
 Black
+Purple
 Dark
 Light
-Batty
-Wild
-Purple
 Hazy
+Bright
+Muted
 Edible
 Inedible
 Drinkable
 Undrinkable
-Save the day
-Villainous
-Beauty contestant
-Always late
-Become a meme
+Bad guy
+Heroic
 Winner
 Loser
+Always late
+Late to the party
+Early bird
+Early riser
+Night owl
+Nighttime thinker
+Datable
+Undatable
+Lover
+Heartthrob
+Good kisser
+Bad kisser
 Outgoing
 Shy
+Talkative
+Silent
+Loud
+Quiet
+Social butterfly
+Socially awkward
+Reclusive
+Funny
+Foolish
+Silly
+Wacky
+Scary
+Intimidating
+Sinister
+Boring
+Plain
+Default
+Forgettable
+Bullish
+Bossy
+Leader
+Follower
+Child-like
+Immature
 Stubborn
+Reluctant
+Passive
+Assertive
 Melodramatic
+Overzealous
+Overthinker
+Daydreamer
 Confused
+Spacey
+Distracted
 Unique
-Likes to nap
+Original
+Copycat
+Trendsetter
+Try hard
+Lazy
+Sleepy
 Found in a library
-Reality show str
-Start a revolution
+Quotes TV shows
+Comic book fan
+Reality show star
+Movie star
+Game show host
+Theater kid
+Rebel
 Podcaster
+Twitch streamer
 Untruthful
-Sneaky
-Snoopy
-Has secret identity
-Into dragons
-Into rollercoasters
+Secret identity
 Into ninja swords
 Has a stamp collection
 Has a coin collection
-Quotes TV shows
 Animal lover
+Dog person
+Cat person
+Trusted to petsit
+Trusted to babysit
 Good teacher
 Good learner
 Public speaker
-Twitch streamer
-Good hair
-Bad hair
-Good dancer
-Bad dancer
 Neurotic
 Anxious
 Anxiety inducing
 Depressing
-Survivalist
-Freaky
-Prone to existential crisis
 Midlife crisis
+Survivalist
+Weird 
 Pirate-like
 Steals your fries
 Clumsy
 Hectic
+Chaotic
+Out of control
 Mad scientist
 Sleeps through a fire drill
-Lazy
-Space case
 Story teller
 Gives unsolicited advice
-Now-it-all
-Trendsetter
+Know-it-all
 Time traveler
 Fantastical
 Pyromaniac
-Wizardly
 Shop-a-holic
 Coffee snob
 Argumentative
 Combative
-Assertive
-Passive
 Cowardly
+Fearful
+Scaredy-cat
+Fearless
 Comfortable
-Boring
-Plain
-Game show host
+Cozy
+Comforting
 Dreamy
 Party animal
+Initiates dance party
+Party planner
 Bummer
 Has a pet ferret
 Forgetful
-Friendly to strangers
+Polite to strangers
+Kind to service workers
 Buys a pet without telling you first
 Good tipper
 Bad tipper
-Reclusive
 Focused
-Spacey
-Smart
 Intelligent
 Stupid
-Silly
-Wacky
-Talks too much
 Believes in conspiracy theories
 Believes in big foot
 Believes in aliens
 Believes in Moth man
-Overthinker
-On TV
-Film star
-Theater kid
-Dirty
 Obsessed
-Lover
 Fighter
 Competitive
 Happy
@@ -150,78 +187,46 @@ Radical
 Cool
 Icy
 Mysterious
-Small hands
 Unpredictable
-Bossy
 Adventurous
+Thrill-seeker
 Nonchalant
+Laid-back
 Dangerous
-Spontaneous
-Out of control
-Chill
 Jumpy
-Overzealous
-Daydreamer
-Night owl
-Early riser
 Leader
 Follower
 Overachiever
 Underachiever
+Late bloomer
+Underdog
 Dreamer
 Idealistic
 Realistic
 Tough
 Sensitive
 Hyper
-Laid-back
-Distracted
+High-energy
 Creative
 Artist
-Stubborn
-Reluctant
 Peaceful
-Chaos-inducing
 Anomaly
-Fearless
-Scaredy-cat
-Full of energy
-Shy
-Talkative
-Silent
-Loud
-Quiet
-Spicy
-Sweet tooth
 Hoarder
 Minimalist
 Selfish
 Selfless
-Scatterbrained
-Too logical
-Too emotional
-Just right
+Logical
+Emotional
 Mediocre
-Persistent 
-Sensitive
-Default
+Persistent
 Stale
 Fresh
 Bold
 Reserved
-Original
-Copycat
-Hoarder
 Opportunistic
 Negotiator
 Survivor
-Late bloomer
-Overachiever
-Underdog
 Teacher's pet
-Late to the party
-Irish goodbye
-Early bird
 Overwhelming
 Underwhelming
 High-maintenance
@@ -234,101 +239,49 @@ Hipster
 Jock
 Nerd
 Loner
-Social butterfly
-Socially awkward
-Thrill-seeker
 Couch potato
 Computer whiz
-Fitness fanatic
+Science geek
 Finance expert
 Foodie
 Bad cook
 Good cook
 Junk food lover
 Health nut
-Sports enthusiast
+Sporty
 Distant
-Close-knit
 Superstitious
 Skeptical
 Nature lover
+Earth lover
 City dweller
 Homebody
-Nighttime thinker
-Sun worshipper
-Moonlight admirer
-Earth lover
-Weather-obsessed
-Water-loving
+Good swimmer
 Animal whisperer
 Plant whisperer
 Noise-sensitive
-Sound-loving
-Space-conscious
-Handyman
-Handywoman
-Fearful
-High-energy
+Handy
 Flexible
 Rigid
 Procrastinator
 Perfectionist
 Loud laugher
 Quiet laugher
-Always tired
-Always energetic
 Handsy
-Handy
-Slimy
-Goopy
-Wiggly
-Squirmy
-Shady
-Good kisser
-Bad kisser
-Initiates dance party
-Party planner
-Vacation lover
-Vacation planner
-Tiny feet
-Big feet
-Big hands
-Jumper
-Swimmer
-Runner
-Athlete
-Mathlete
-Science geek
-Comic book fan
-Heartthrob
-Model
-Boy Scout
-Rebel
-Bad guy
 Nasty
-Cat lover
-Dog lover
-Bird watcher
 Music lover
 Musician
-Comforting
 Unsettling
-Cozy
 Stressful
 Calming
-Chaotic
 Awkward
-Intimidating
 Inviting
-Threatening
 Lonely
 Overstimulating
-Peaceful
 Suspicious
 Tense
 Heavy
 Lighthearted
-Cold-hearted
 Warm
 Busy
 Empty
@@ -338,16 +291,11 @@ Sharp
 Soft
 Cluttered
 Minimal
-Bright
-Muted
 Overdesigned
 Bare
-Eye-catching
-Forgettable
 Ugly
-Accidentally beautiful
-Confusing in a good way
-Confusing in a bad way
+Beautiful
+Confusing
 Trying too hard
 Effortless
 Pretentious
@@ -360,15 +308,10 @@ Overthought
 Underexplained
 Self-important
 Humble
-Meaningless
-Profound
 Outdated
 Ahead of its time
 Timeless
 Of its era
-Feels old
-Feels new
-Future-coded
 Useful
 Useless
 Overengineered
@@ -386,31 +329,20 @@ Harmless
 Questionable
 Problematic
 Well-intentioned
-Dubious
 Trustworthy
-Sinister
 Innocent
-Corrupting
 Pure
-Neutral energy
-Accidentally iconic
-Deserves more credit
 Overrated
 Underrated
-Trying to be cool
 Technically counts
 Barely qualifies
 Doesn’t belong here
 Steals focus
 Background energy
-Feels sticky
 Expensive
 Cheap
 Smells good
 Makes a sound
-Has weight
-Has texture
-Has a temperature
 Would hurt if thrown
 Would break easily
 Shouldn’t exist
