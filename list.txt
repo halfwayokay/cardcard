@@ -348,3 +348,109 @@ Dog lover
 Bird watcher
 Music lover
 Musician
+Comforting
+Unsettling
+Cozy
+Stressful
+Calming
+Chaotic
+Awkward
+Intimidating
+Inviting
+Threatening
+Lonely
+Overstimulating
+Peaceful
+Suspicious
+Tense
+Heavy
+Lighthearted
+Cold-hearted
+Warm
+Distant
+Busy
+Empty
+Clean
+Messy
+Sharp
+Soft
+Loud 
+Quiet  
+Cluttered
+Minimal
+Bright
+Muted
+Overdesigned
+Bare
+Eye-catching
+Forgettable
+Ugly
+Accidentally beautiful
+Confusing in a good way
+Confusing in a bad way
+Trying too hard
+Effortless
+Pretentious
+Earnest
+Misleading
+Honest
+Pointless
+Necessary
+Overthought
+Underexplained
+Self-important
+Humble
+Meaningless
+Profound 
+Outdated
+Ahead of its time
+Timeless
+Of its era
+Feels old
+Feels new
+Future-coded
+Useful
+Useless
+Overengineered
+Fragile
+Durable
+Temporary
+Permanent
+Disposable
+Reliable
+Sketchy
+Hard to explain
+Does one thing well
+Does too much
+Harmless
+Questionable
+Problematic
+Well-intentioned
+Dubious
+Trustworthy
+Sinister
+Innocent
+Corrupting
+Pure
+Neutral energy
+Accidentally iconic
+Deserves more credit
+Overrated
+Underrated
+Trying to be cool
+Technically counts
+Barely qualifies
+Doesn’t belong here
+Steals focus
+Background energy
+Feels sticky
+Feels expensive
+Feels cheap
+Smells good
+Makes a sound
+Has weight
+Has texture
+Has a temperature
+Would hurt if thrown
+Would break easily
+Shouldn’t exist
