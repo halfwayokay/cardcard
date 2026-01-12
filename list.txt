@@ -1,25 +1,22 @@
 Able to lift a car
-Smiley 
+Smiley
 Toothy
 Sweet
 Sweaty
 Worst
 Hairy
-Furry
-Wet 
+Wet
 Smelly
 Capable of doing taxes
 Skilled in taxidermy
 Willing to walk a dog
-Trusted to cat sit
-Trusted to dog sit
+Trusted to petsit
 Trusted to babysit
 Datable
-Undatable 
+Undatable
 Clownish
 Foolish
 Bullish
-Childish
 Child-like
 Funny
 Scary
@@ -48,9 +45,7 @@ Villainous
 Beauty contestant
 Always late
 Become a meme
-Unlikely to succeed
-Likely to succeed
-Award winner
+Winner
 Loser
 Outgoing
 Shy
@@ -72,20 +67,18 @@ Into rollercoasters
 Into ninja swords
 Has a stamp collection
 Has a coin collection
-Quotes movies
 Quotes TV shows
 Animal lover
 Good teacher
 Good learner
 Public speaker
 Twitch streamer
-Best hair
-Worst hair
-Best dancer
-Worst dancer
+Good hair
+Bad hair
+Good dancer
+Bad dancer
 Neurotic
 Anxious
-Depressed
 Anxiety inducing
 Depressing
 Survivalist
@@ -96,10 +89,8 @@ Pirate-like
 Steals your fries
 Clumsy
 Hectic
-Frantic
 Mad scientist
 Sleeps through a fire drill
-Sleepy
 Lazy
 Space case
 Story teller
@@ -108,33 +99,29 @@ Now-it-all
 Trendsetter
 Time traveler
 Fantastical
-Pyromaniac 
+Pyromaniac
 Wizardly
 Shop-a-holic
 Coffee snob
 Argumentative
 Combative
-Aggressive
 Assertive
 Passive
 Cowardly
 Comfortable
-Blank
 Boring
 Plain
 Game show host
 Dreamy
 Party animal
-Bummer 
-Has a pet ferret 
+Bummer
+Has a pet ferret
 Forgetful
 Friendly to strangers
 Buys a pet without telling you first
 Good tipper
 Bad tipper
 Reclusive
-Stays on-topic
-Goes off-topic
 Focused
 Spacey
 Smart
@@ -147,26 +134,21 @@ Believes in conspiracy theories
 Believes in big foot
 Believes in aliens
 Believes in Moth man
-Complimentative 
+Overthinker
 On TV
 Film star
 Theater kid
 Dirty
-Filthy
 Obsessed
-In love
 Lover
 Fighter
 Competitive
-Thinker 
-Contemplative
 Happy
 Hoppy
-Gnarly 
+Gnarly
 Radical
 Cool
 Icy
-Snowy
 Mysterious
 Small hands
 Unpredictable
@@ -179,7 +161,6 @@ Out of control
 Chill
 Jumpy
 Overzealous
-Overthinker
 Daydreamer
 Night owl
 Early riser
@@ -196,8 +177,7 @@ Hyper
 Laid-back
 Distracted
 Creative
-Artistic
-Crafty
+Artist
 Stubborn
 Reluctant
 Peaceful
@@ -206,7 +186,6 @@ Anomaly
 Fearless
 Scaredy-cat
 Full of energy
-Outgoing
 Shy
 Talkative
 Silent
@@ -218,26 +197,20 @@ Hoarder
 Minimalist
 Selfish
 Selfless
-Smartest in the room
-Not-so-smartest in the room
 Scatterbrained
 Too logical
 Too emotional
 Just right
 Mediocre
-Never gives up
-Never quits
-Feels too much
-Feels too little
-Regular
-Irregular
+Persistent 
+Sensitive
+Default
 Stale
 Fresh
 Bold
 Reserved
 Original
 Copycat
-Collector
 Hoarder
 Opportunistic
 Negotiator
@@ -260,7 +233,6 @@ Punk
 Hipster
 Jock
 Nerd
-Geek
 Loner
 Social butterfly
 Socially awkward
@@ -268,8 +240,7 @@ Thrill-seeker
 Couch potato
 Computer whiz
 Fitness fanatic
-Finance expert 
-Day Trader
+Finance expert
 Foodie
 Bad cook
 Good cook
@@ -283,8 +254,6 @@ Skeptical
 Nature lover
 City dweller
 Homebody
-Outgoing
-Quiet
 Nighttime thinker
 Sun worshipper
 Moonlight admirer
@@ -299,8 +268,6 @@ Space-conscious
 Handyman
 Handywoman
 Fearful
-Braveheart
-Laid-back
 High-energy
 Flexible
 Rigid
@@ -316,12 +283,9 @@ Slimy
 Goopy
 Wiggly
 Squirmy
-Sweet tooth
-Shady 
+Shady
 Good kisser
 Bad kisser
-Good dancer
-Bad dancer
 Initiates dance party
 Party planner
 Vacation lover
@@ -329,11 +293,10 @@ Vacation planner
 Tiny feet
 Big feet
 Big hands
-Great hair
 Jumper
 Swimmer
 Runner
-Athlete 
+Athlete
 Mathlete
 Science geek
 Comic book fan
@@ -367,15 +330,12 @@ Heavy
 Lighthearted
 Cold-hearted
 Warm
-Distant
 Busy
 Empty
 Clean
 Messy
 Sharp
 Soft
-Loud 
-Quiet  
 Cluttered
 Minimal
 Bright
@@ -401,7 +361,7 @@ Underexplained
 Self-important
 Humble
 Meaningless
-Profound 
+Profound
 Outdated
 Ahead of its time
 Timeless
@@ -444,8 +404,8 @@ Doesn’t belong here
 Steals focus
 Background energy
 Feels sticky
-Feels expensive
-Feels cheap
+Expensive
+Cheap
 Smells good
 Makes a sound
 Has weight
