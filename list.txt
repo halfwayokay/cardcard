@@ -1,3 +1,95 @@
+Athlete
+Runner
+Swimmer
+Jumper
+Fitness fanatic
+Mathlete
+Dancer
+Good Kisser
+Bad Kisser
+Found in a library
+Quotes TV shows
+Comic Book Fan
+Reality Show Star
+Movie Star
+Game Show Host
+Theater kid
+Rebel
+Podcaster
+Streamer
+Influencer
+Secret identity
+Dog Person
+Cat Person
+Babysitter
+Teacher
+Student
+Public Speaker
+Survivalist
+Mad Scientist
+Storyteller
+Mansplainer
+Know-it-all
+Time Traveler
+Pyromaniac
+Shop-a-holic
+Coffee Snob
+Conspiracy Theorist
+Believer
+Teacher's pet
+Goth
+Emo
+Preppy
+Punk
+Hipster
 Jock
 Nerd
+Loner
+Couch Potato
+Computer Whiz
+Science Geek
+Finance Expert
+Foodie
+Chef
+Health nut
+Swimmer
+Animal Whisperer
+Plant Whisperer
+Laugher
+Problem
+Socialite
+Skeptic
+Space Case
+Bully
+Boss
+Leader
+Follower
+Child
+Pacifist
+Recluse
+Comedian
+Fool
+Silly Billy
+Bad guy
 Hero
+Early Bird
+Night Owl
+Winner
+Loser
+Lover
+Heartthrob
+Social butterfly
+Freak
+Intimidator
+Bore
+Plain Jane
+Bummer
+Liar
+Angel
+Coward
+Blabber Mouth
+Party Animal
+Found in a library
+Dummy
+Idiot
+Acrobat
