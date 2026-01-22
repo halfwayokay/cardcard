@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Call-Out Generator</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Call-Out Generator (Combo Mode)</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -16,13 +16,26 @@
     }
     .container {
       text-align: center;
-      padding: 20px;
+      padding: 24px;
       background-color: white;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
       border-radius: 8px;
+      width: min(520px, calc(100vw - 32px));
+    }
+    .callout {
+      font-size: 28px;
+      line-height: 1.2;
+      margin: 0;
+      word-wrap: break-word;
+    }
+    .sub {
+      margin-top: 10px;
+      color: #555;
+      font-size: 14px;
+      min-height: 1.2em;
     }
     button {
-      margin-top: 20px;
+      margin-top: 18px;
       padding: 10px 20px;
       font-size: 16px;
       cursor: pointer;
@@ -31,36 +44,147 @@
       border: none;
       border-radius: 4px;
     }
+    button.combo {
+      background-color: #FF3B30; /* red-ish so it feels urgent */
+    }
+    button:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+    .small {
+      margin-top: 14px;
+      font-size: 12px;
+      color: #777;
+    }
+    .small code {
+      background: #f2f2f2;
+      padding: 2px 4px;
+      border-radius: 4px;
+    }
   </style>
 </head>
 <body>
   <div class="container">
-    <h1 id="callOut">Click the button to get a Call-Out!</h1>
-    <button onclick="generateCallOut()">Generate Call-Out</button>
+    <h1 id="callOut" class="callout">Loading call-outs…</h1>
+    <div id="status" class="sub"></div>
+    <button id="drawBtn" onclick="draw()"
+      disabled>Loading…</button>
+
+    <div class="small">
+      Edit <code>list.txt</code> (normal) and <code>combo.txt</code> (combo) in the same folder as <code>index.html</code>.
+    </div>
   </div>
 
   <script>
-    let callOuts = [];
+    let normalCallOuts = [];
+    let comboCallOuts = [];
 
-    async function loadCallOuts() {
+    // Current round state
+    let chain = [];          // collected prompts in order
+    let awaitingCombo = false; // if true, next click continues drawing
+
+    async function loadFileLines(filename) {
+      const response = await fetch(filename, { cache: "no-store" });
+      if (!response.ok) {
+        throw new Error(`Failed to load ${filename} (HTTP ${response.status})`);
+      }
+      const text = await response.text();
+      return text
+        .split(/\r?\n/)
+        .map(line => line.trim())
+        .filter(Boolean);
+    }
+
+    async function loadAll() {
+      const callOutEl = document.getElementById("callOut");
+      const statusEl = document.getElementById("status");
+      const btn = document.getElementById("drawBtn");
+
       try {
-        const response = await fetch('list.txt');
-        const text = await response.text();
-        callOuts = text.split(/\r?\n/).map((line) => line.trim()).filter(Boolean);
+        // list.txt = normal prompts
+        normalCallOuts = await loadFileLines("list.txt");
+
+        // combo.txt = combo prompts
+        // If you don't have combo.txt yet, create it (can be empty).
+        try {
+          comboCallOuts = await loadFileLines("combo.txt");
+        } catch (e) {
+          comboCallOuts = [];
+        }
+
+        const total = normalCallOuts.length + comboCallOuts.length;
+
+        if (total === 0) {
+          callOutEl.innerText = "No call-outs found.";
+          statusEl.innerText = "Add items to list.txt and/or combo.txt.";
+          btn.disabled = true;
+          btn.innerText = "No data";
+          return;
+        }
+
+        callOutEl.innerText = "Click the button to get a Call-Out!";
+        statusEl.innerText = `Loaded ${normalCallOuts.length} normal + ${comboCallOuts.length} combo.`;
+        btn.disabled = false;
+        btn.innerText = "Generate Call-Out";
+        btn.classList.remove("combo");
       } catch (error) {
-        document.getElementById('callOut').innerText = 'Unable to load call-outs.';
+        callOutEl.innerText = "Unable to load call-outs.";
+        statusEl.innerText = "Make sure index.html, list.txt, and combo.txt are in the same folder.";
+        btn.disabled = true;
+        btn.innerText = "Error";
       }
     }
 
-    loadCallOuts();
+    loadAll();
 
-    function generateCallOut() {
-      if (callOuts.length === 0) {
-        document.getElementById('callOut').innerText = 'Loading call-outs...';
-        return;
+    function drawFromDeck() {
+      // Virtual deck = normal + combo
+      // Probability naturally matches how many lines are in each file.
+      const total = normalCallOuts.length + comboCallOuts.length;
+      const r = Math.floor(Math.random() * total);
+
+      if (r < comboCallOuts.length) {
+        return { text: comboCallOuts[r], isCombo: true };
+      } else {
+        return { text: normalCallOuts[r - comboCallOuts.length], isCombo: false };
       }
-      const randomIndex = Math.floor(Math.random() * callOuts.length);
-      document.getElementById('callOut').innerText = callOuts[randomIndex];
+    }
+
+    function renderChain() {
+      const callOutEl = document.getElementById("callOut");
+      callOutEl.innerText = chain.join(" + ");
+    }
+
+    function setButtonState() {
+      const btn = document.getElementById("drawBtn");
+      const statusEl = document.getElementById("status");
+
+      if (awaitingCombo) {
+        btn.innerText = "COMBO";
+        btn.classList.add("combo");
+        statusEl.innerText = "Combo hit — draw again.";
+      } else {
+        btn.innerText = "Generate Call-Out";
+        btn.classList.remove("combo");
+        statusEl.innerText = "";
+      }
+    }
+
+    function draw() {
+      // If we're NOT in a combo chain, this starts a new round.
+      if (!awaitingCombo) {
+        chain = [];
+      }
+
+      const card = drawFromDeck();
+      chain.push(card.text);
+      renderChain();
+
+      // If it's a combo card, keep going on next click.
+      // If it's normal, end the chain.
+      awaitingCombo = card.isCombo;
+
+      setButtonState();
     }
   </script>
 </body>
