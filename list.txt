@@ -1,13 +1,13 @@
 Athlete
 Runner
-Swimmer
 Jumper
 Fitness fanatic
 Mathlete
 Dancer
 Good Kisser
 Bad Kisser
-Found in a library
+Librarian
+Researcher
 Quotes TV shows
 Comic Book Fan
 Reality Show Star
@@ -89,7 +89,153 @@ Angel
 Coward
 Blabber Mouth
 Party Animal
-Found in a library
 Dummy
 Idiot
 Acrobat
+Monster
+Beast
+Aggressor
+Animal
+Goof
+Default
+Menace
+Disaster
+Trainwreck
+Bad Influence
+Problem Child
+Nightmare
+Villain
+Sidekick
+Antihero
+Legend
+Weirdo
+Icon
+Show-off
+Try-hard
+Overachiever
+Underdog
+Late Bloomer
+Class Clown
+People Pleaser
+Drama Queen
+Attention Seeker
+Wallflower
+Backstabber
+Snitch
+Gossip
+Instigator
+Peacemaker
+Mediator
+Hype Man
+Third Wheel
+Gatekeeper
+Workaholic
+Slacker
+Entrepreneur
+Intern
+Salesperson
+HR Nightmare
+Neat Freak
+Spy
+Thief
+Scammer
+Con Artist
+Pickpocket
+Hacker
+Snitch
+Double Agent
+Escape Artist
+Troublemaker
+Actor
+Director
+Writer
+Poet
+Artist
+Critic
+Journalist
+DJ
+Talk Show Host
+Game Show Contestant
+Assistant
+Overthinker
+Daydreamer
+Hothead
+Control Freak
+Perfectionist
+Procrastinator
+Scatterbrain
+Stickler
+Debater
+Know-nothing
+Risk Taker
+Club Goer
+Barfly
+Road Tripper
+Vacation Planner
+Homebody
+Gym Rat
+Food Snob
+Cheap Date
+Big Spender
+Collector
+Hoarder
+Dog Walker
+Bird Watcher
+Horse Girl
+Snake Owner
+Creature
+Critter
+Gremlin
+Hopeless Romantic
+Flirt
+Heartbreaker
+Problematic Ex
+Boyfriend Material
+Girlfriend Material
+Bad Texter
+Good Texter
+Champion
+MVP
+Main Character
+NPC
+Final Boss
+Background Character
+Chosen One
+The One That Got Away
+Caffeine Addict
+Hall Monitor
+Slob
+Snob
+Lumberjack
+Hater
+Wildcard
+Loose Cannon
+Fanboy
+Fangirl
+Sweetheart
+Best Pal
+Backseat Driver
+Roommate
+Complainer
+Flake
+Rule Follower
+Rule Breaker
+Micromanager
+Dropout
+Valedictorian
+Bouncer
+Coach
+Stalker
+Lurker
+Stunt Double
+Producer
+Groupie
+Ghost
+Optimist
+Pessimist
+Stranger
+Creep
+Gremlin
+Parasite
+Brute
+Manipulator
