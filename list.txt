@@ -22,8 +22,10 @@ Secret identity
 Dog Person
 Cat Person
 Babysitter
+Sommelier
 Teacher
 Student
+Wunderkind
 Public Speaker
 Survivalist
 Mad Scientist
@@ -32,7 +34,7 @@ Mansplainer
 Know-it-all
 Time Traveler
 Pyromaniac
-Shop-a-holic
+Shopaholic
 Coffee Snob
 Conspiracy Theorist
 Believer
@@ -51,7 +53,7 @@ Science Geek
 Finance Expert
 Foodie
 Chef
-Health nut
+Health Nut
 Swimmer
 Animal Whisperer
 Plant Whisperer
@@ -239,3 +241,10 @@ Gremlin
 Parasite
 Brute
 Manipulator
+Good Tipper
+Bad Tipper
+Puppet Master
+Good Typer
+Bad Typer
+Gamer
+Good Sport
